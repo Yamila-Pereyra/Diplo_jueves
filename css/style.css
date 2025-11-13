@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*font-family: "Open Sans", sans-serif;*/
+
+body {
+  font-family:"Open Sans", sans-serif ;
+  line-height: 16px;
+  color: #222;
+  line-height: 20px;
+  
+  background: linear-gradient(to right, rgba(47,143,157,0.8), rgba(0,63,92,0.9));
+}
+
+header{
+  
+  background-color: #a2f4be;
+  padding: 16px 0;
+}
+
+header h1{
+  color: #222;
+font-size: 50px;
+font-weight: italic;
+display: inline-block;
+position: relative;
+bottom: 35px;
+margin-left: 10px;
+}
+/*NAVBAR RESPONSIVE */
+
+.navbar {
+  background-color: #236d78;
+  padding: 10px 0;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+/* Botón hamburguesa */
+.nav-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none; /
+}
+
+/* Menú */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.nav-menu li a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* -------- Responsive -------- */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #236d78;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.5rem 0;
+    display: none;
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+}
+
+nav{
+  background-color: #236d78;
+  margin-bottom: 20px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li{
+  flex-grow: 2;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  padding: 3px 6px;
+  display: block;
+  text-align: center;
+}
+nav ul li a:hover {
+  color: #2f8f9d;
+  background-color: rgba(0, 0, 0, 3);
+}
+
+footer{
+  background-color: rgb(236, 119, 46);
+  clear: both;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 10px;
+}
+
+/* MAIN */
+/* Colores */
+:root {
+  --primary: #003F5C;
+  --accent: #2F8F9D;
+  --bg: #F9FAFB;
+  --text: #333;
+  --muted: #6B7280;
+}
+
+
+/* Sección HERO */
+.hero-section {
+  padding: 80px 0;
+  text-align: center;
+ /* background: linear-gradient(to right, rgba(0,63,92,0.9), rgba(47,143,157,0.8));*/
+ background: radial-gradient(circle, #aed6dc, #3692bd);
+
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.subtitulo {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+/* Botones */
+.btn-primary {
+  background: linear-gradient(to right, rgba(0,63,92,0.9), rgba(47,143,157,0.8));
+
+  border: 2px solid;
+  padding: 12px 24px;
+  border-radius: 10px;
+  color:black;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn-outline {
+  background: linear-gradient(to right, rgba(47,143,157,0.8), rgba(0,63,92,0.9));
+
+  border: 2px solid ;
+  padding: 12px 24px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Sobre nosotros */
+.nosotros {
+  padding: 60px 0;
+  text-align: center;
+ /* background: linear-gradient(to right, rgba(248, 101, 16, 0.9), rgba(245, 139, 74, 0.8));
+*/
+}
+
+/* Beneficios */
+.beneficios {
+  padding: 60px 0;
+  background: white;
+}
+
+.lista-beneficios {
+  max-width: 600px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  color: var(--text);
+}
+
+/* Servicios */
+.servicios {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.service-card {
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 0;
+  transition: 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+}
+/* CTA FINAL */
+.cta-final {
+  padding: 80px 0;
+  background: var(--primary);
+  color: white;
+  text-align: center;
+}
+
+.cta-final .btn-primary {
+  background: white;
+  color: var(--primary);
+}
+/* CONTACTO */
+.contacto {
+  padding: 80px 0;
+  background: #F9FAFB;
+  text-align: center;
+}
+
+.titulo-contacto {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.texto-contacto {
+  max-width: 600px;
+  margin: 10px auto 40px;
+  color: var(--muted);
+}
+
+.contacto-whatr {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.contacto-box h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.contacto-box p {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+/* BOTÓN WHATSAPP */
+.btn-whatsapp {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+/* FORMULARIO */
+.contacto-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.25s;
+}
+
+.contacto-form input:focus,
+.contacto-form textarea:focus {
+  border-color: var(--accent);
+}
+
+.form-btn {
+  width: 100%;
+  margin-top: 10px;
+}
