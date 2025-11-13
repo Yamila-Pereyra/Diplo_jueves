@@ -1,0 +1,69 @@
+
+.header-section {
+  height: ;
+  background: linear-gradient(to right, rgba(222, 38, 38, 0.918), rgba(50, 50, 50, 0.6)),
+              url('https://via.placeholder.com/1500x800?text=Fondo+Sublimados');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.carousel-item img {
+  height: 300px;
+  width: 100%;             
+  border-radius: 10px;
+  padding: 10px;           
+}
+
+#productos{
+    padding: 10px;
+}
+
+#carouselProductos {
+  max-width: 900px;    
+  
+}
+
+#carouselProductos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;          
+}
+
+.carousel-item img {
+  height: 350px;     
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.galeria-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.galeria-img:hover {
+  transform: scale(1.05);
+}
+
+body {
+  padding-top: 70px;
+}
+
+h2 {
+  color: #333;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #000;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #ff0707;
+  color: #fff;
+}

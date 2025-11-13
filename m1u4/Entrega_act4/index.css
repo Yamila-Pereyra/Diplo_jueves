@@ -1,0 +1,56 @@
+/*Solo para el el nombre*/
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*para el resto*/
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Onest:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(185, 128, 128);
+    font-family: "Prompt", sans-serif;
+
+}
+h1{
+    color: rgb(14, 5, 44);
+    font-weight: 600;
+    text-align:center ;
+    font-family: "Prompt", sans-serif;
+    font-size: 60px;
+    text-shadow: -10px 0px 7px rgba(144,26,26,0.6);
+}
+
+img{
+    width: 200px;
+    border: 5px solid ;
+    border-radius: 150px;
+    box-shadow: 10px 10px 7px rgba(69, 45, 45, 0.734);
+}
+.columnas{
+    column-count: 2;
+}
+.parrafos{
+    background-color: rgb(124, 86, 86);    
+ 
+    
+}
+
+p{
+    color:rgb(56, 11, 11);
+}
+
+h2{
+    color:  rgb(14, 5, 44);
+    text-decoration:underline;
+    font-style: oblique;
+}
+
+ul{
+    line-height: 35px;
+}
+.destacar{
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    color:  rgb(185, 128, 128);
+    padding: 30px;
+    text-align: center;
+}
