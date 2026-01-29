@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Ignorar logs, bases de datos, binarios y archivos temporales
+*.log
+*.db
+*.bin
+*.tmp
+
+# Ignorar carpetas comunes
+node_modules/
+dist/
+build/
+out/
+
+# Ignorar archivos específicos del editor
+.vscode/
+.idea/
